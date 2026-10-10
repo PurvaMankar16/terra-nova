@@ -88,31 +88,6 @@ npm run dev
 
 Serve the `Frontend/` directory with a local static server, such as VS Code Live Server. Make sure the frontend API configuration points to the local backend URL.
 
-## Environment variables
-
-Keep secrets in `ngo-backend/.env`. Do not commit this file or real credentials.
-
-```env
-MONGO_URI=
-PORT=5002
-JWT_SECRET=
-EMAIL_HOST=
-EMAIL_PORT=
-EMAIL_USER=
-EMAIL_PASS=
-ADMIN_EMAIL=
-SENDER_EMAIL=
-ADMIN_ACTION_SECRET=
-BACKEND_URL=
-FRONTEND_URL=
-NGO_LOGIN_URL=
-ADMIN_DASHBOARD_URL=
-RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
-```
-
-Use Razorpay test credentials during development. Never publish database connection strings, JWT secrets, SMTP passwords, payment secrets, or admin credentials.
-
 ## API overview
 
 The backend exposes REST endpoints for:
